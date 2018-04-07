@@ -1,0 +1,232 @@
+/*--Universal Styles--*/
+
+html{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/*-- Header Section --*/
+
+header{
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  width: 100%;
+  background-color: teal;
+}
+
+.logo{
+  flex-grow: 1;
+}
+
+
+.logo, .menu{
+  display: flex;
+  align-items: center;
+}
+
+nav a{
+  padding: 0 0.25rem;
+  margin: 0 0.25rem;
+}
+
+.login{
+  margin-right: 1.25rem;
+}
+
+.logo img{
+  height: 2rem;
+  padding-left: 1.5rem;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.grey{
+  color: darkgrey;
+}
+
+@media only screen and (max-width:480px;){
+
+}
+
+@media only screen and (max-width: 480px){
+  .logo{
+    flex-grow: 0;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .logo span{
+    display: none;
+  }
+}
+
+/*-- Banner Section --*/
+
+.banner{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  background-color: darkgrey;
+}
+
+.banner img{
+  width:  60%;
+  height: auto;
+  margin: 2rem;
+}
+
+.banner .learn{
+  display: flex;
+  flex-direction: column;
+}
+
+.learn, h1, .bannertext{
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.learn h1{
+  font-size: 2.5rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  margin-bottom: 2rem
+
+}
+
+.start{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-top: 2rem;
+  text-decoration: none;
+  color: orange;
+  background-color: rgba(0, 0, 0, 0.65);
+  text-align: center;
+}
+
+.bannertext{
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 480px){
+  .banner{
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .banner img{
+    margin: 0;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .learn h1{
+    margin: 2rem 1rem;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .bannertext{
+    margin-left: 1rem;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .learn a{
+    margin: 1.5rem 1rem 2rem 1rem;
+  }
+}
+
+.info{
+  display: inline-block;
+  width: 100%;
+}
+
+.practice{
+  width: 60%;
+  margin: 0;
+}
+
+.practice img, h2, p{
+  width: 100%;
+  height: auto;
+  margin: 2rem;
+}
+
+.practice h2{
+  font-size: 2rem;
+  font-weight: 900;
+  color: rgba(0, 0, 0, 0.65);
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+.practice p{
+  color: darkgrey;
+}
+
+.Emanuel{
+  font-size: 0.75em;
+  margin-bottom: 2rem;
+}
+
+h3{
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.specinfo{
+  display: block;
+  width: 40%;
+  margin: 0;
+}
+
+.specinfo img{
+  width: 35%;
+  height: 35%;
+  margin: 1rem;
+}
+
+.box, .sacks{
+  display: flex;
+  flex-direction: row;
+  color: rgba(0, 0, 0, 0.65);
+  width: 100%;
+}
+
+.sacks{
+  background-color: darkgrey;
+}
+
+.sub-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  width: 65%;
+}
+
+.box  a{
+  text-decoration: none;
+  color: orange;
+}
+
+.sacks a{
+  text-decoration: none;
+  color: orange;
+}
